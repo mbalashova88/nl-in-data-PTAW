@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 # Creating geo df
 #geodata_url_corop = "https://geodata.nationaalgeoregister.nl/cbsgebiedsindelingen/wfs?request=GetFeature&service=WFS&version=1.1.0&typeName=cbsgebiedsindelingen:cbs_coropgebied_2020_gegeneraliseerd&outputFormat=application%2Fjson"
-map_corop = gpd.read_file("./data/geoserver-GetFeature.application")
+map_corop = gpd.read_file("geoserver-GetFeature.application")
 #map_corop = gpd.read_file(geodata_url_corop)
 
 # Creating df for plotting
