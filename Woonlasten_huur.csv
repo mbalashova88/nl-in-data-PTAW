@@ -1,0 +1,46 @@
+"Woonlasten huishoudens; kenmerken woning, regio",,,,
+Woningkenmerken: Totaal woningen,,,,
+Marges: Waarde,,,,
+,,,,
+Regio's,statcode,Totaal woonlasten Huurder 2012 EUR,Totaal woonlasten Huurder 2015 EUR,Totaal woonlasten Huurder 2018 EUR
+Oost-Groningen (CR),CR01,526,590,577
+Delfzijl en omgeving (CR),CR02,582,.,594
+Overig Groningen (CR),CR03,548,583,605
+Noord-Friesland (CR),CR04,521,560,568
+Zuidwest-Friesland (CR),CR05,525,587,599
+Zuidoost-Friesland (CR),CR06,544,622,587
+Noord-Drenthe (CR),CR07,549,598,635
+Zuidoost-Drenthe (CR),CR08,565,614,585
+Zuidwest-Drenthe (CR),CR09,556,589,603
+Noord-Overijssel (CR),CR10,561,624,652
+Zuidwest-Overijssel (CR),CR11,593,691,626
+Twente (CR),CR12,557,584,626
+Veluwe (CR),CR13,621,655,659
+Achterhoek (CR),CR14,557,632,650
+Arnhem/Nijmegen (CR),CR15,569,635,651
+Zuidwest-Gelderland (CR),CR16,605,618,670
+Utrecht (CR),CR17,618,691,714
+Kop van Noord-Holland (CR),CR18,562,624,655
+Alkmaar en omgeving (CR),CR19,580,645,638
+IJmond (CR),CR20,625,629,625
+Agglomeratie Haarlem (CR),CR21,605,716,719
+Zaanstreek (CR),CR22,586,683,730
+Groot-Amsterdam (CR),CR23,604,679,749
+Het Gooi en Vechtstreek (CR),CR24,659,702,745
+Agglomeratie Leiden en Bollenstreek (CR),CR25,642,668,694
+Agglomeratie 's-Gravenhage (CR),CR26,630,710,722
+Delft en Westland (CR),CR27,583,628,709
+Oost-Zuid-Holland (CR),CR28,621,646,688
+Groot-Rijnmond (CR),CR29,579,635,668
+Zuidoost-Zuid-Holland (CR),CR30,600,633,659
+Zeeuwsch-Vlaanderen (CR),CR31,567,600,592
+Overig Zeeland (CR),CR32,572,618,628
+West-Noord-Brabant (CR),CR33,595,659,685
+Midden-Noord-Brabant (CR),CR34,574,633,639
+Noordoost-Noord-Brabant (CR),CR35,618,650,665
+Zuidoost-Noord-Brabant (CR),CR36,594,659,664
+Noord-Limburg (CR),CR37,605,631,652
+Midden-Limburg (CR),CR38,578,601,665
+Zuid-Limburg (CR),CR39,567,621,620
+Flevoland (CR),CR40,607,646,693
+Nederland,NL01,591,648,675

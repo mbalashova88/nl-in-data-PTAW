@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dopetrope by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" type = "text/css" />
+		<link rel="stylesheet" href={{url_for('static',filename='css/main.css')}}/>
+		<link rel="stylesheet" href={{cdn_css | safe}} type="text/css" />
+		<script type="text/javascript" src={{cdn_js | safe}}></script>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="housing_market.html">Netherlands in Data</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="left-sidebar.html">Economy</a></li>
+								<li><a href="population.html">Population</a></li>
+								<li class="current"><a href="housing_market.html">Housing market</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+
+
+
+
+
+								<a href="#" class="image featured"><img src="../static/images/Amsterdam3.jpg" alt="" /></a>
+								<header>
+									<h2>Housing market in the Netherlands <br> <br> <br></h2>
+									<h3>Housing shortage per province</h3>
+									<p> North-Holland, Flevoland and Utrecht experiencing the highest shortage over 5%</p>
+									</header>
+
+								{{js5|safe}}
+      							{{div5|safe}}
+
+
+
+								<p>
+									<br>
+									Despite an increased production of new homes, the housing shortage in the Netherlands increased from 3.8% in 2019 to 4.2% in 2020 driven by the strong growth of households amount.
+									The shortage totaled 331 thousand houses in 2020. The situation is the most critical in provinces North-Holland, Flevoland and Utrecht where the shortage exceeded 5%.
+									The housing shortage in the Netherlands is forecasted to go further up to 5.1% (419 thousand houses) in 2025.
+								</p>
+
+								<header>
+										<h3>Average house purchase prices per region</h3>
+										<p>Haarlem, Gooi and Vechtstreek, and Amsterdam regions are the most expensive with prices exceeding €450k</p>
+									</header>
+								{{js|safe}}
+      							{{div|safe}}
+								<p>
+									An average house purchase price in the Netherlands increased to € 311k in 2020.
+									The most expensive regions are traditionally situated in Randstad and North- Brabant.
+									The prices generally decrease as you get closer to the borders of the country.
+									The cheapest regions are located in Groningen, Friesland, Drenthe, Limburg and Zeeland.
+									The price difference between regions has grown wider over the years and amounts to € 320k in 2020.
+									An average house purchase price in Haarlem agglomeration is almost 3 times higher than in Delfzij region. <br><br>
+									An average house purchase price is calculated as an average of all transaction prices of existing houses sold in a period.
+									The numbers are not adjusted for differences in houses characteristics.
+									Differences between regions are a.o. caused by the type of houses that are sold.
+									For example, an average sale price of a house in a region with relatively more villas will be higher than the one in a region with relatively more apartments.
+								</p>
+								<section>
+									<header>
+										<h3>Average monthly housing costs of tenants per region</h3>
+										<p>Top-10 most expensive regions are situated in Randstad</p>
+									</header>
+									{{js6|safe}}
+      								{{div6|safe}}
+
+									<p>
+										Housing costs of tenants include rent, energy, water and gas costs, municipal taxes, eventually reduced by a rent subsidy.
+										Housing costs of tenants amounts to € 675 in 2018, an increase of 14% from 2012. Top-10 most expensive regions are all located in Randstad.
+										The cheapest regions are mainly situated closer to the borders of the country, in provinces Groningen, Friesland, Drenthe, Limburg and Zeeland.
+									</p>
+								</section>
+
+							</article>
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Netherlands in Data. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
