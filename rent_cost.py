@@ -11,9 +11,9 @@ from bokeh.embed import components
 
 
 
-map_corop = gpd.read_file("geoserver-GetFeature.application")
+map_corop = gpd.read_file("/home/datanl/nl-in-data-PTAW/geoserver-GetFeature.application")
 
-df_rent_cost = pd.read_csv("Woonlasten_huur.csv", header = [4], engine = "python")
+df_rent_cost = pd.read_csv("/home/datanl/nl-in-data-PTAW/Woonlasten_huur.csv", header = [4], engine = "python")
 df_rent_cost_map = map_corop.merge(df_rent_cost, on = "statcode")
 df_rent_cost_map.sort_values(by = "Totaal woonlasten Huurder 2018 EUR", ascending = True, inplace = True)
 

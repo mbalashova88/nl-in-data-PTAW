@@ -18,7 +18,7 @@ def heatmap_png():
     return Response(output.getvalue(), mimetype="image/svg+xml")
 
 def create_figure():
-    df_age_map = pd.read_csv("Age_data_1950-2020.csv", header=[5], engine='python')
+    df_age_map = pd.read_csv("/home/datanl/nl-in-data-PTAW/Age_data_1950-2020.csv", header=[5], engine='python')
     df_age_map.index = df_age_map["Age_group"].str.replace(",%", "")
     df_age_map.set_index("Age_group", inplace=True)
     df_age_map = pd.concat([df_age_map[col].str.rstrip("%").astype("int") / 100 for col in df_age_map], axis=1)

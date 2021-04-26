@@ -31,7 +31,7 @@ geodata_url_corop = "https://geodata.nationaalgeoregister.nl/cbsgebiedsindelinge
 map_corop = gpd.read_file(geodata_url_corop)
 
 # Creating df for plotting
-cbs_original = pd.read_excel("./data/pbk-naar-corop-gebied-1e-kwartaal-1995-tot-en-met-2e-kwartaal-2020-Maria.xlsx", sheet_name = "Tabel 1", header = [2], skipfooter = 2, skiprows = [3], engine="openpyxl")
+cbs_original = pd.read_excel("/home/datanl/nl-in-data-PTAW/data/pbk-naar-corop-gebied-1e-kwartaal-1995-tot-en-met-2e-kwartaal-2020-Maria.xlsx", sheet_name = "Tabel 1", header = [2], skipfooter = 2, skiprows = [3], engine="openpyxl")
 #cbs_original = pd.read_excel("C:/Users/maria/PycharmProjects/nl-in-data-PTAW/data/pbk-naar-corop-gebied-1e-kwartaal-1995-tot-en-met-2e-kwartaal-2020-Maria.xlsx", sheet_name = "Tabel 1", header = [2], skipfooter = 2, skiprows = [3], engine="openpyxl")
 cbs_original.rename(columns = {"Regiocode": "statcode"}, inplace = True)
 # cbs_original.astype({'statcode': 'str'})

@@ -24,7 +24,7 @@ import numpy as np
 
 
 
-df_population_early = pd.read_csv("Bevolking__huishoudens_en_bevolkingsontwikkeling__vanaf_1899_01022021_150304.csv", header = [3], skipfooter = 1, engine = "python")
+df_population_early = pd.read_csv("/home/datanl/nl-in-data-PTAW/Bevolking__huishoudens_en_bevolkingsontwikkeling__vanaf_1899_01022021_150304.csv", header = [3], skipfooter = 1, engine = "python")
 # Format dataframe for a line graph
 df_population_early.set_index("Onderwerp",inplace=True)
 df_population_early2 = df_population_early.T

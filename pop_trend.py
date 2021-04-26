@@ -23,7 +23,7 @@ import pandas as pd
 
 
 
-df_population_early = pd.read_csv("Bevolking__huishoudens_en_bevolkingsontwikkeling__vanaf_1899_01022021_150304.csv", header = [3], skipfooter = 1, engine = "python")
+df_population_early = pd.read_csv("/home/datanl/nl-in-data-PTAW/Bevolking__huishoudens_en_bevolkingsontwikkeling__vanaf_1899_01022021_150304.csv", header = [3], skipfooter = 1, engine = "python")
 df_population_early.set_index("Onderwerp",inplace=True)
 df_population_early2 = df_population_early.T
 df_population_early2.drop(index = ["Unnamed: 1", "1899"], axis = 0, inplace = True)
