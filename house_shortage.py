@@ -9,7 +9,7 @@ from bokeh.layouts import gridplot
 from bokeh.models import ColumnDataSource
 from bokeh.embed import components
 
-df_province_shortage = pd.read_csv("/home/datanl/nl-in-data-PTAW/rovince_shortage_house.csv")
+df_province_shortage = pd.read_csv("/home/datanl/nl-in-data-PTAW/province_shortage_house.csv")
 map_province = gpd.read_file("/home/datanl/nl-in-data-PTAW/geoserver-GetFeature_province2.application")
 
 shortage_province_map = map_province.merge(df_province_shortage, on = "statcode")
